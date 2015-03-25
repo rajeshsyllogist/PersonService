@@ -13,8 +13,8 @@
     <bean id="jaxbContext" class="com.cognizant.person.providers.JAXBSpringContext">
         <property name="classesToBeBound">
             <list>
-                <value type="java.lang.Class">com.cognizant.person.domain.entiry.Person</value>
-                 <value type="java.lang.Class">com.cognizant.person.domain.entiry.PersonList</value>
+                <value type="java.lang.Class">com.cognizant.person.domain.entity.Person</value>
+                 <value type="java.lang.Class">com.cognizant.person.domain.entity.PersonList</value>
             </list>
         </property>
         
